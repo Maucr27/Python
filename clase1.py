@@ -40,4 +40,9 @@ año2 = (año1+aumento2)
 print ("Total en el segundo año: ",año2)
 aumento3= (año2/100)*4
 año3 = (año2+aumento3)
-print ("Total en el tercer año: ",(round (año3,2)))'''
+print ("Total en el tercer año: ",(round (año3,2)))
+
+cantidad = float(input("Ingrese la cantidad que va a invertir"))
+interes = float(input("Ingrese el porcentaje de intereses anual"))
+años = int(input("Ingrese la cantidad de años"))
+print ("Capital final: "+str(round(cantidad * (interes/100+1)**años,2100)))'''
